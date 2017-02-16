@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'pry-stack_explorer' # upgrade to regular dep?
 
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec', '~> 3.5'
   s.add_development_dependency 'redcarpet'
   s.add_development_dependency 'capybara'
 
